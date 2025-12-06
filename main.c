@@ -128,7 +128,7 @@ void game_loop(Player *player) {
     int game_over = 0;
 
     printf("\nStarting game on floor %d...\n", current_floor);
-    printf("TODO: Implement full game loop with exploration, combat, items.\n");
+    // printf("TODO: Implement full game loop with exploration, combat, items.\n");
 
     while (!game_over && current_floor <= 5) {
         /* TODO: Display current dungeon state. */
